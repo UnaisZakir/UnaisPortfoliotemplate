@@ -1,193 +1,178 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Unais Zakir - Web Developer Resume</title>
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Muhammad Unais — Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css"/>
+<link rel="icon" href="data:;base64,iVBORw0KGgo=">
 </head>
-
 <body>
- 
-    <div class="container py-5">
-        <header class="text-center mb-5">
-            <h1>Unais Zakir</h1>
-            <h3>Junior Software Developer</h3>
-            <h6>
-                <p><i class="fas fa-phone me-2"></i><strong> Phone:</strong> 03332166200 | <i
-                        class="fas fa-envelope me-2"></i><strong> Email:</strong> <a
-                        href="mailto: unaiszakir12@gmail.com">unaiszakir12@gmail.com </a>| <i
-                        class="fas fa-map-marker-alt me-2"></i><strong>Location:</strong><a
-                        href="https://maps.app.goo.gl/RFZnm3kqT8rfuZhy7"> Hira Lal Rd,
-                        Ranchore Lane, Karachi, Pakistan</a></p>
-            </h6>
-        </header>
+<canvas id="bg"></canvas>
+<div id="scrollProgress"></div>
+<div id="cursor-dot"></div><div id="cursor-ring"></div>
 
-        <div class="resume-container">
-            <!-- LEFT COLUMN -->
-            <div class="left-column">
-                <!-- Profile Picture -->
-                <div class="profile-section">
-                    <img src="profile-pic.jpg" alt="Profile Picture" class="profile-pic">
-                    <!-- Replace 'your-photo.jpg' with your actual image path -->
-                </div>
+<!-- Sidebar -->
+<aside class="sidebar glass">
+  <div class="brand">
+    <div class="logo">MU</div>
+    <div class="name">Unais</div>
+  </div>
+  <nav class="nav">
+    <a href="#hero" class="nav-item active"><i class="i i-home"></i><span>Home</span></a>
+    <a href="#about" class="nav-item"><i class="i i-user"></i><span>About</span></a>
+    <a href="#skills" class="nav-item"><i class="i i-skill"></i><span>Skills</span></a>
+    <a href="#projects" class="nav-item"><i class="i i-brief"></i><span>Projects</span></a>
+    <a href="#contact" class="nav-item"><i class="i i-mail"></i><span>Contact</span></a>
+  </nav>
+  <div class="cta">
+    <a class="btn btn-gold" href="resume.html" target="_blank">View Resume</a>
+    <a class="btn" href="Muhammad_Unais_Resume_original.pdf" download>Download PDF</a>
+  </div>
+</aside>
 
-                <!-- Skills -->
-                <section class="mt-4">
-                    <h2 class="section-title">Technical Skills</h2>
-                    <div><strong>Office 365</strong>
-                        <div class="progress">
-                            <div class="progress-bar" data-percent="85%"></div>
-                        </div>
-                    </div>
-                    <div><strong>HTML</strong>
-                        <div class="progress">
-                            <div class="progress-bar" data-percent="95%"></div>
-                        </div>
-                    </div>
-                    <div><strong>CSS</strong>
-                        <div class="progress">
-                            <div class="progress-bar" data-percent="90%"></div>
-                        </div>
-                    </div>
-                    <div><strong>JavaScript</strong>
-                        <div class="progress">
-                            <div class="progress-bar" data-percent="80%"></div>
-                        </div>
-                    </div>
-                    <div><strong>Bootstrap</strong>
-                        <div class="progress">
-                            <div class="progress-bar" data-percent="85%"></div>
-                        </div>
-                    </div>
-                    <div><strong>jQuery</strong>
-                        <div class="progress">
-                            <div class="progress-bar" data-percent="75%"></div>
-                        </div>
-                    </div>
-                    <div><strong>UI/UX</strong>
-                        <div class="progress">
-                            <div class="progress-bar" data-percent="70%"></div>
-                        </div>
-                    </div>
-                    <div><strong>SEO Keywords</strong>
-                        <div class="progress">
-                            <div class="progress-bar" data-percent="70%"></div>
-                        </div>
-                    </div>
-                    <div><strong>WordPress</strong>
-                        <div class="progress">
-                            <div class="progress-bar" data-percent="80%"></div>
-                        </div>
-                    </div>
-                    <div><strong>Git/GitHub</strong>
-                        <div class="progress">
-                            <div class="progress-bar" data-percent="75%"></div>
-                        </div>
-                    </div>
-                    <div><strong>Database Management</strong>
-                        <div class="progress">
-                            <div class="progress-bar" data-percent="80%"></div>
-                        </div>
-                    </div>
-                    <div><strong>MySQL</strong>
-                        <div class="progress">
-                            <div class="progress-bar" data-percent="75%"></div>
-                        </div>
-                    </div>
-                    <div><strong>SQL</strong>
-                        <div class="progress">
-                            <div class="progress-bar" data-percent="80%"></div>
-                        </div>
-                    </div>
-                    <div><strong>PHP</strong>
-                        <div class="progress">
-                            <div class="progress-bar" data-percent="70%"></div>
-                        </div>
-                    </div>
-                    <div><strong>C#</strong>
-                        <div class="progress">
-                            <div class="progress-bar" data-percent="60%"></div>
-                        </div>
-                    </div>
-                    <div><strong>Angular</strong>
-                        <div class="progress">
-                            <div class="progress-bar" data-percent="60%"></div>
-                        </div>
-                    </div>
-                </section>
-            </div>
-
-            <!-- RIGHT COLUMN -->
-            <div class="right-column">
-                <!-- Objective -->
-                <section>
-                    <h2 class="section-title">Objective</h2>
-                    <p>
-                        To obtain a challenging position in a reputable organization where I can
-                        utilize my technical and creative skills to contribute meaningfully to web development projects.
-                        I aim to leverage my knowledge of front-end and back-end technologies, along with a passion for
-                        user-centered design,
-                        to build responsive, accessible, and innovative digital experiences. My goal is to grow
-                        professionally in a dynamic environment,
-                        collaborate with industry experts, and continuously refine my development capabilities to meet
-                        evolving tech demands.
-                    </p>
-                </section>
-
-                <!-- Education -->
-                <section>
-                    <h2 class="section-title">Academic Background</h2>
-                    <div class="info-box">
-                        <strong>Diploma in Software Engineering</strong><br>
-                        Aptech Garden Center (2023–2026)<br>
-                        <em>Training in programming, database systems, and web frameworks.</em>
-                    </div>
-                    <div class="info-box">
-                        <strong>BBA - Bachelor of Business Administration</strong><br>
-                        Sindh Madressatul Islam University (2025–2029)<br>
-                        <em>Emphasis on business operations, strategy, and leadership.</em>
-                    </div>
-                    <div class="info-box">
-                        <strong>Intermediate in Commerce</strong><br>
-                        St. Patrick's College (2021–2023)<br>
-                        <em>Focused on finance, accounting, and economic principles.</em>
-                    </div>
-                    <div class="info-box">
-                        <strong>Matriculation in General Science</strong><br>
-                        DHACSS Beachview Campus (2019–2021)<br>
-                        <em>Strong grounding in analytical and logical reasoning.</em>
-                    </div>
-                </section>
-
-                <!-- Achievements -->
-                <section>
-                    <h2 class="section-title">Certifications & Achievements</h2>
-                    <ul>
-                        <li>Participation in 29th IKMC – Won unique pen at cadet level (2019).</li>
-                        <li>Completed 30-hour volunteer service at SIUT (July 10–15, 2023).</li>
-                        <li>Participant in TechWiz Global I.T. Competition – Aptech (Nov 14, 2024).</li>
-                    </ul>
-                </section>
-
-                <!-- Languages -->
-                <section>
-                    <h2 class="section-title">Languages</h2>
-                    <ul>
-                        <li><strong>English:</strong> Intermediate</li>
-                        <li><strong>Urdu:</strong> Native</li>
-                        <li><strong>Punjabi:</strong> Understands</li>
-                    </ul>
-                </section>
-            </div>
-        </div>
+<!-- Main content -->
+<main class="content">
+  <!-- HERO -->
+  <section id="hero" class="section hero">
+    <div class="panel glass">
+      <h1 class="title"><span class="glow">Muhammad Unais</span></h1>
+      <h2 class="typewriter" data-text="Frontend Developer · UI/UX Specialist · Animation Lover"></h2>
+      <p class="lead">I build premium web experiences — fast, elegant, and delightful. Ready to ship polished UI with modern animations and solid architecture.</p>
+      <div class="actions">
+        <a href="#projects" class="btn btn-gold">View Projects</a>
+        <a href="#contact" class="btn btn-ghost">Hire Me</a>
+      </div>
+      <div class="meta">Pakistan • Open to Remote & Full-time</div>
     </div>
+    <div class="panel glass profile">
+      <div class="avatar">
+        <img src="assets/profile-pic.jpg" onerror="this.src='https://images.unsplash.com/photo-1545996124-1bb5f48a2ac2?q=80&w=800&auto=format&fit=crop'" alt="Profile"/>
+      </div>
+      <div class="socials">
+        <a href="https://github.com/unaiszakir" target="_blank" aria-label="GitHub">GitHub</a>
+        <a href="mailto:unaiszakir12@gmail.com" aria-label="Email">Email</a>
+        <a href="#" aria-label="LinkedIn">LinkedIn</a>
+      </div>
+    </div>
+  </section>
 
-    <script src="script.js"></script>
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="panel glass reveal">
+      <h3>About Me</h3>
+      <p>I'm a web developer who blends elegant design with performant code. Focused on modern UI, accessible components and polished micro-interactions that feel premium.</p>
+      <ul class="stats">
+        <li><span>8+</span> Years Experience</li>
+        <li><span>100+</span> Projects</li>
+        <li><span>Freelance</span> & Contract</li>
+      </ul>
+    </div>
+    <div class="panel glass reveal grid two">
+      <div>
+        <h4>Toolbox</h4>
+        <ul class="tags">
+          <li>HTML</li><li>CSS</li><li>JavaScript</li><li>Bootstrap</li><li>React</li><li>Tailwind</li><li>Figma</li><li>UI/UX</li>
+        </ul>
+      </div>
+      <div>
+        <h4>What I Deliver</h4>
+        <ul class="bullets">
+          <li>Pixel-perfect responsive UIs</li>
+          <li>Animations & micro-interactions</li>
+          <li>Clean, maintainable code</li>
+          <li>Performance & accessibility</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section">
+    <div class="panel glass reveal">
+      <h3>Skills</h3>
+      <div class="skills">
+        <div class="skill"><span>Frontend Architecture</span><div class="bar"><i style="--w:92%"></i></div></div>
+        <div class="skill"><span>Animation & Interactions</span><div class="bar"><i style="--w:88%"></i></div></div>
+        <div class="skill"><span>Design Systems</span><div class="bar"><i style="--w:80%"></i></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section">
+    <div class="panel glass reveal">
+      <h3>Selected Projects</h3>
+      <div class="carousel" data-autoplay="true">
+        <div class="cards">
+          <article class="card tilt">
+            <div class="thumb" style="background-image:url('https://images.unsplash.com/photo-1526378728085-8d6ea3b1b5a9?q=80&w=1200&auto=format&fit=crop')"></div>
+            <div class="info">
+              <h5>Car Buzz</h5>
+              <p>Vehicle listings UI — responsive, Bootstrap & JS.</p>
+              <a href="https://unaiszakir.github.io/Car-Buzz/" target="_blank" class="btn btn-ghost">Live</a>
+            </div>
+          </article>
+
+          <article class="card tilt">
+            <div class="thumb" style="background-image:url('https://images.unsplash.com/photo-1520975698511-3b1b2c1b4fd7?q=80&w=1200&auto=format&fit=crop')"></div>
+            <div class="info">
+              <h5>Movie Booking UI</h5>
+              <p>Ticket booking UX, seat map, trailer integration.</p>
+              <a href="#" class="btn btn-ghost">Case Study</a>
+            </div>
+          </article>
+
+          <article class="card tilt">
+            <div class="thumb" style="background-image:url('https://images.unsplash.com/photo-1515879218367-8466d910aaa4?q=80&w=1200&auto=format&fit=crop')"></div>
+            <div class="info">
+              <h5>Marketing Landing</h5>
+              <p>Conversion-focused landing with animations.</p>
+              <a href="#" class="btn btn-ghost">Preview</a>
+            </div>
+          </article>
+        </div>
+        <div class="dots"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section">
+    <div class="panel glass reveal grid two">
+      <div>
+        <h3>Let's work together</h3>
+        <p>Have a project or role in mind? Send a quick message.</p>
+        <form id="contactForm">
+          <input placeholder="Your name" required/>
+          <input type="email" placeholder="Email address" required/>
+          <textarea rows="5" placeholder="Tell me about the project" required></textarea>
+          <button class="btn btn-gold" type="submit">Send Message</button>
+        </form>
+        <div id="sent" class="success" hidden>Message ready! (Demo)</div>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul class="contact">
+          <li>Email: <a href="mailto:unaiszakir12@gmail.com">unaiszakir12@gmail.com</a></li>
+          <li>Phone: <a href="tel:+923332166200">+92 333 2166200</a></li>
+          <li>Location: Pakistan</li>
+        </ul>
+        <a class="btn" href="resume.html" target="_blank">Open Stylish Resume</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="section">
+    <div class="panel glass center">
+      <small>© <span id="year"></span> Muhammad Unais — Crafted with care</small>
+    </div>
+  </footer>
+</main>
+
+<script src="script.js"></script>
 </body>
-
 </html>
